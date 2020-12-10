@@ -45,7 +45,7 @@ namespace Verysimpleex
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            // 내가 지정한 Intervewl에 한 번식 동작
+            // 내가 지정한 Intervewl에 한 번식 동작  
             // 여기서는 1000ms= 1초에 한 번 동작
             label_second.Text = countTime.ToString();
             countTime++;
