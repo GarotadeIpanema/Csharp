@@ -45,7 +45,7 @@ namespace Shakerestaurant
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.SidePanel = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -69,7 +69,7 @@ namespace Shakerestaurant
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(174)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.pictureBox8);
-            this.panel1.Controls.Add(this.panel5);
+            this.panel1.Controls.Add(this.SidePanel);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.panel3);
@@ -282,13 +282,13 @@ namespace Shakerestaurant
             this.label3.TabIndex = 6;
             this.label3.Text = "SHACK";
             // 
-            // panel5
+            // SidePanel
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(89)))), ((int)(((byte)(93)))));
-            this.panel5.Location = new System.Drawing.Point(0, 166);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 62);
-            this.panel5.TabIndex = 4;
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(89)))), ((int)(((byte)(93)))));
+            this.SidePanel.Location = new System.Drawing.Point(0, 166);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(10, 62);
+            this.SidePanel.TabIndex = 4;
             // 
             // pictureBox1
             // 
@@ -359,9 +359,9 @@ namespace Shakerestaurant
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(13, 783);
+            this.pictureBox8.Location = new System.Drawing.Point(46, 775);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(38, 38);
+            this.pictureBox8.Size = new System.Drawing.Size(36, 33);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 11;
             this.pictureBox8.TabStop = false;
@@ -419,7 +419,7 @@ namespace Shakerestaurant
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel SidePanel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;

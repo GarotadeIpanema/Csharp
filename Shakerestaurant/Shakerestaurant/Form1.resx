@@ -120,16 +120,15 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAHTSURBVFhH7VQ9S8NQFK1fqJOKi6BuCg7qqmNxqx+gQyFt2lIdOgrqbjs6+Af8A35tDooOCkIR
-        h24Ook6CUh1sRcVFaD0nHJekIDV9kzlweO+ee3PPTV6SUIAA9SIej08nEokd27YfwJLI/TYYUVnjAeNh
-        GOTB6i88Awd0WWOQTCZH0fRFBs/gOjiGoXrIWCw2jjWrHGuK0EZ0uT9Eo9FONLxT44N0Ot2tlAccBsdz
-        yFrsb1DbodTfgUYrMi9kMpk2atjPgjwO3jGZh/EMcxr4CuQQy9R8AY0u2QyPdE7xElih5mIFQyyyBuu8
-        tAvGvoAmr2yGO+tSfM0YJqupVKqXRLxGjTnW8CgUlxj7ghpVFXpiAkP0Sy8y5nuiuOwU+IEaeag0z7wF
-        8a70PWr4aqYUF5wiP1AjD5mLRCLtOIp9aR/YD0Fuwv6YGo4iyzoj4DsBk3OZv8E8TB3rhrQyjqLPKW40
-        crlcMwyOZHTPH1E4HG6F+Za0r5+vxgjwaC0ZPVqWNcgfDvYn0j7BBZWaAQY4pRlWmzH2mzJ/wgs44RSZ
-        BIxuZejmpErMAkbvLmOH/A2rJIBZ1Hr8pNLmUcucVNo83Ib/dwA3lTaPWuak0gEC1IFQ6BvSnXAaXV22
-        rAAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAdNJREFUWEft
+        VD1Lw1AUrV+ok4qLoG4KDuqqY3GrH6BDIW3aUh06CupuOzr4B/wDfm0Oig4KQhGHbg6iToJSHWxFxUVo
+        PSccl6QgNX2TOXB47557c89NXpJQgAD1Ih6PTycSiR3bth/Aksj9NhhRWeMB42EY5MHqLzwDB3RZY5BM
+        JkfR9EUGz+A6OIaheshYLDaONasca4rQRnS5P0Sj0U40vFPjg3Q63a2UBxwGx3PIWuxvUNuh1N+BRisy
+        L2QymTZq2M+CPA7eMZmH8QxzGvgK5BDL1HwBjS7ZDI90TvESWKHmYgVDLLIG67y0C8a+gCavbIY761J8
+        zRgmq6lUqpdEvEaNOdbwKBSXGPuCGlUVemICQ/RLLzLme6K47BT4gRp5qDTPvAXxrvQ9avhqphQXnCI/
+        UCMPmYtEIu04in1pH9gPQW7C/pgajiLLOiPgOwGTc5m/wTxMHeuGtDKOos8pbjRyuVwzDI5kdM8fUTgc
+        boX5lrSvn6/GCPBoLRk9WpY1yB8O9ifSPsEFlZoBBjilGVabMfabMn/CCzjhFJkEjG5l6OakSswCRu8u
+        Y4f8DaskgFnUevyk0uZRy5xU2jzchv93ADeVNo9a5qTSAQLUgVDoG9KdcBpdXbasAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
