@@ -15,6 +15,8 @@ namespace Shakerestaurant
         public Form1()
         {
             InitializeComponent();
+            SidePanel1.Height = button1.Height;
+            firstUserControl11.BringToFront();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -29,11 +31,19 @@ namespace Shakerestaurant
 
         private void button1_Click(object sender, EventArgs e)
         {
-         
+            SidePanel1.Height = button1.Height;
+
+            SidePanel1.Top = button1.Top;
+            firstUserControl11.BringToFront();
+            //secondUserControl11.BringToFront();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            SidePanel1.Height = button3.Height;
+            SidePanel1.Top = button3.Top;
+            secondUserControl11.BringToFront();
 
         }
 
@@ -79,7 +89,7 @@ namespace Shakerestaurant
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-
+            Dispose();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)

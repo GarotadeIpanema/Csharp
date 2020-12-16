@@ -31,11 +31,11 @@ namespace Shakerestaurant
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SecondUserControl1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -69,15 +69,30 @@ namespace Shakerestaurant
             this.panel1.Size = new System.Drawing.Size(239, 335);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // label4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 34);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Burger";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(14, 209);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(170, 80);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Topped with\r\ngruyere-style cheese, \r\nand crispy shallots on\r\n a toasted potato bu" +
+    "n";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(174)))), ((int)(((byte)(43)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(100, 292);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 29);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Read more";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -97,30 +112,15 @@ namespace Shakerestaurant
             this.label2.Size = new System.Drawing.Size(0, 22);
             this.label2.TabIndex = 0;
             // 
-            // button1
+            // label1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(174)))), ((int)(((byte)(43)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(100, 292);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Read more";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(14, 209);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(170, 80);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Topped with\r\ngruyere-style cheese, \r\nand crispy shallots on\r\n a toasted potato bu" +
-    "n";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(3, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(102, 34);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Burger";
             // 
             // panel2
             // 
@@ -263,7 +263,7 @@ namespace Shakerestaurant
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "SecondUserControl1";
-            this.Size = new System.Drawing.Size(817, 423);
+            this.Size = new System.Drawing.Size(801, 489);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
