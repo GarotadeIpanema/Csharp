@@ -236,6 +236,7 @@ namespace questionofsharp
                 start = end;
 
             }/// 1 들어가고/cnt=0/number='1'/
+
             Console.WriteLine("8번문제");
 
             int x, i = int.Parse(Console.ReadLine()); ;

@@ -42,10 +42,28 @@ namespace Algo_20201218
 
                 }
 
-
-
+            Console.WriteLine("8번문제");
+            int input = int.Parse(Console.ReadLine());
+            int max = 1;//각 벌집의 최대값
+            int counter = 0; //임의의 카운트 변수
+            while (true)
+            {
+                max = max + (6 * counter);
+                if (max < input)
+                {
+                    counter++;
+                    continue;
+                }
+                else
+                    Console.WriteLine($"{input}은 {counter + 1}번째 벌집에 속함");
+                break;
 
             }
+
+
+
+
+        }
         }
     }
 }
