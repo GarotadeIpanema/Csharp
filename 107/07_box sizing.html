@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:100px;
+            height: 100px;
+            background-color: magenta;
+            border: 20px solid purple;
+            margin:100px;
+            padding: 30px;
+
+        }
+        /* 이 다섯개를 박스 속성이라 한다. */
+        div:first-child{
+            /* 디폴트값: content-box */
+            /* width: 100px;  height: 100px;= border에 적용*/
+            box-sizing: content-box;
+
+        }
+        div:last-child{
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    
+</body>
+</html>

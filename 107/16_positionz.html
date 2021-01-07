@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 포지션: 절대좌표: 좌측 상단 0,0기준와 상대 좌표파가 있음 -->
+    <style>
+        .box{
+
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            
+        }
+        .red
+        {
+            background-color: red;
+            left:10px; top:10px;
+            /* static= 기본값 */
+            /* position:static; */
+            z-index: 3;
+           
+            /*static left 같은거 안먹음 주먹임 */
+        }
+        .green{
+            background-color: green;
+            left: 50px;
+            top:50px;
+            position: relative;
+            z-index: 2;
+
+        }
+        .blue{
+            background-color: blue;
+            position: fixed;
+            left:90px;
+            top:90px;
+            z-index: 1;
+
+        }
+       
+
+    </style>
+
+</head>
+<body>
+    <!--모니터 좌측 상단이 0,0 -->
+    <div class="box red">
+        
+    </div>
+    <div class="box green">
+        
+    </div>
+    <div class="box blue"></div>
+   
+
+
+
+</body>
+</html>
