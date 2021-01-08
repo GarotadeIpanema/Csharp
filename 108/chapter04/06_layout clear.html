@@ -1,0 +1,73 @@
+<!-- 웹페이지 표준 규격 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 960px;
+            margin: 0 auto;
+            /* 공식!: 가운데 정렬a+s합한값이 바디 width값 넘으면 안됨 */
+        }
+
+        #aside {
+            width: 200px;
+            float: left;
+            background-color: aqua;
+        }
+
+        #section {
+            width: 740px;
+            float: right;
+            background-color: rgb(158, 111, 201);
+        }
+
+        .clear {
+            clear: both;
+
+        }
+       
+    </style>
+</head>
+
+<body>
+    <!-- 수평 정렬 공식:자손에 float 속성 적용한면 부모는 오버플로우: hidden 적용 -->
+
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div id="navigation"></div>
+    <h1>navigation</h1>
+
+    <div id="aside">
+        <h1>Aside</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, minus laborum! Exercitationem explicabo
+            quos molestias provident, esse laborum. Numquam consequuntur ea accusamus esse deserunt velit quod?
+            Accusantium quibusdam dicta natus.
+
+        </p>
+    </div>
+
+    <div id="section"></div>
+    <h1>Section</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, minus laborum! Exercitationem explicabo quos
+        molestias provident, esse laborum. Numquam consequuntur ea accusamus esse deserunt velit quod? Accusantium
+        quibusdam dicta natus.
+
+    </p>
+
+    <div class="clear"></div>
+    /* 공간 할당하여 footer가 위로 올라가지 않게 해줌 */
+
+    <div id="footer">
+        <h1>Footer</h1>
+    </div>
+
+
+
+</body>
+
+</html>
