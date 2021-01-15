@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 인터프리터 언어 -->
+    <!--var 대신 let쓰면 var처럼 중복선언 안됨 -->
+    <script>
+
+        var one =1;
+        var two = "2";
+        console.log("gd");
+        let three =333;
+        console.log("dg333");
+        var array = [1,2,3, "뭉", "뮹", '명' ,9];
+        
+        for(var i=0; i<array.length;i++){
+            console.log(array[i]);
+        }
+        array =100;
+        console.log(array);
+// 속성 : 값 쌍으로 전달: Json
+        var obj ={
+            name:"지민",
+            age: 26,
+            gender: "female",
+            _ : "언더바는 허용됨"
+
+        
+        }
+        //접근 방법 두가지
+    console.log(obj['name']);
+    console.log(obj['age']);
+    console.log(obj['gender']);
+    console.log(obj.name);
+    console.log(obj.age);
+    console.log(obj.gender);
+// 함수를 와우라는 변수에 넣었디
+    var wow =function()
+    {
+        console.log("대박이네");
+    };
+    wow();
+    // 함수가 호출됨
+    console.log(wow);
+    // 내용이 찍힘
+    // console.log( console.log(wow));
+    // //리턴값을 찍어라: 리턴값 없기 때문에 언디 뜸
+   
+
+    // console.log(wow());
+    // //undefined 뜸 : 와우가 리턴하는 값이 없기 때문
+
+    var devilArray= [
+        1,2,"3",{master: "랄라", name: "블라" },[1,2,3]
+    ]
+    console.log(devilArray[0]);
+    console.log(devilArray[1]);
+    console.log(devilArray[2]);
+    console.log(devilArray[3]);
+    console.log(devilArray[4]);
+
+    var devilJson ={
+        one: [1,2,3,4,5],
+        two: {two_one: "2", two_two : "twotwo"},
+        three: 5
+    }
+    console.log(devilJson.one);
+    console.log(devilJson.two);
+    console.log(devilJson['three']);
+
+    </script>
+</body>
+</html>

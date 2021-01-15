@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="one" type="text"> <span>+</span>
+    <input id="two" type="text"><span>=</span>
+    <span id="result">결과가 여기에 나옴</span>
+    <!-- //옆에 붙지않고 밑으로 오게함: display block -->
+    
+    
+    <div>
+        <input value="합" type="button" onclick="sum()">
+    </div>
+    
+    <script>
+        function sum(){
+            var one = document.getElementById('one').value;
+            var two = document.getElementById('two').value;
+            alert(Number(one)+Number(two));
+            document.getElementById('result').innerText= Number(one)+Number(two);
+
+        }
+    </script>
+
+    <input id="hana" type="text"> <span>-</span>
+    <input id="dull" type="text"><span>=</span>
+    <span id="result1">결과가 여기에 나옴</span>
+    <div>
+        <input value="뺄셈" type="button" onclick="minus()">
+    </div>
+    <script>
+        function minus(){
+            var hana = document.getElementById('hana').value;
+            var dull = document.getElementById('dull').value;
+            alert(Number(hana)+Number(dull));
+            document.getElementById('result1').innerText= Number(hana)-Number(dull);
+
+        }
+    </script>
+
+     <input id="hana1" type="text"> <span>*</span>
+     <input id="dull1" type="text"><span>=</span>
+     <span id="result2">결과가 여기에 나옴</span>
+     <div>
+         <input value="곱셈" type="button" onclick="double()">
+     </div>
+     <script>
+         function double(){
+             var hana1 = document.getElementById('hana1').value;
+             var dull1 = document.getElementById('dull1').value;
+             alert(Number(hana1)*Number(dull1));
+             document.getElementById('result2').innerText= Number(hana1)*Number(dull1);
+ 
+         }
+     </script>
+    
+      <input id="hana2" type="text"> <span>/</span>
+      <input id="dull2" type="text"><span>=</span>
+      <span id="result3">결과가 여기에 나옴</span>
+      <div>
+          <input value="나눗셈" type="button" onclick="divide()">
+      </div>
+      <script>
+          function divide(){
+              var hana2 = document.getElementById('hana2').value;
+              var dull2 = document.getElementById('dull2').value;
+              alert(Number(hana2)/Number(dull2));
+              document.getElementById('result3').innerText= Number(hana2)/Number(dull2);
+  
+          }
+      </script>
+
+
+</body>
+</html>
