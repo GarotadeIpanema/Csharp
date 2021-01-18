@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //객체 빼먹은거 보충
+        function Student(name, number) {
+            this.name = name;
+            this.number = number;
+        }
+        //클래스 매소드와 같은 역할(한번 선언해두면 계속씀)  
+          
+        Student.prototype.toString = function () 
+            {
+                return "이름: " + this.name + "학번: " + this.number
+            }
+        
+        //배열 보충: .push .add랑 동일
+        // 배열 자동으로 문자열로 변환 :toString함수
+        var array = [];
+        array.push(new Student("지민", 202001387));
+        array.push(new Student("마가", 202041387));
+
+        var tempStudent =new Student("혜경", 20203475);
+        array.push(tempStudent);
+        var output = '';
+        for (var index in array) {
+            output += array[index] + "\n";
+        }
+        alert(output);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 변수선언: const, let, var이용 -->
+<body>
+    <script>
+        //배열
+        var array = [1,2,"지민", 3.5];
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            console.log(element);
+            //객체= json =JavaScriptSbjectNotation
+        //함수
+            
+        }
+        
+        var obj = 
+        {
+            age:20,
+            name:"비갓휴",
+            evolution:"라잇휴",
+            "!!!" : "후덩덩",
+            123: " 전기뚱댕이"
+        }
+        console.log(obj.age);
+        
+        console.log(obj.name);
+        console.log(obj.evolution);
+        console.log(obj["!!!"]);
+        console.log(obj["!!!"]);
+        console.log(obj["123"]);
+        // 숫자는 값을 읽어들일때는 따옴표안에 넣어줘여됨
+        // 배열도 객체임 배열안에 객체 객체안에 배열 들어갈 수 잇음
+        var newArray =[array,obj];
+        console.log(newArray);
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            console.log(element);
+            
+        }
+        // 함수
+        //함수이름과 함꼐 선언
+        function testFunc(){
+            console.log("안녕 세상");
+        };
+        var testF = function(){
+            console.log("Baby Driver");
+        }
+        testF();
+        function jsFunc(param1, param2){
+            var love =param1+ "♡" +param2;
+            return love;
+        }
+        console.log(jsFunc("지민","라우라"));
+
+    </script>
+    <script>
+        
+    </script>
+</body>
+</html>
