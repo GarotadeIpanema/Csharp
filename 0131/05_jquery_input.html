@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Document</title>
+    
+    <script>
+        $(document).ready(function () {
+            $('form').submit(function (event) 
+            {
+                var name = $('#name').val();
+                var pw = $('#password').val();
+                // c#
+                alert(`'name:${name},비번:${pw}'`);
+                // 기본 이벤트 제거
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <form>
+        <input id="name" type="text">
+        <input id="password" type="password">
+        <input type="submit" value="제출">
+    </form>
+</body>
+
+</html>

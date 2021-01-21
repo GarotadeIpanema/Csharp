@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $.fn.pivot =function(options){
+            var $target =$(this);
+            var $items =$target.children();
+            var $container =$target.wrap('<div></div>').parent();
+            var option ={width:500, height:450};
+            // 옵션을 변경
+            $.extend(option,options);
+            $target.css({
+                width:$items.length *option.width,
+                height:options.height,
+                position:'absolute'
+            })
+            // 옆으로 넘기는 피벗을 위함
+            $items.css({
+                float:'left',
+                width:option.width,
+                height:option.height
+            })
+            $container.css({
+                overflow:'hidden',position:'relative',
+                width:option.width,height:option.height
+            });
+
+            // 이벤트 연결
+            var originalleft=0;
+            var oldleft=0;
+            var nowPosition=0;
+            var isDown=false;
+            $target.on('mousedown', function(event){
+                oldleft=originalleft=event.clientX;
+                isDown=true;
+                
+                event.preventDefault();
+            });
+            $target.on('mousemove',function(event){
+                if(isDown){
+                    var distance = oldleft - event.clientX;
+                    oldleft = event.clientX;
+                    $target.animate({left:'-='+distance},0);
+                    $target.stop(true);//움직이고 다시 멈추기
+                }                event.preventDefault();
+
+
+            });
+                   
+            $target.on('mouseup',function(event)
+            {
+                function movePosition(direction){
+                    var changePosition = nowPosition + direction;
+                    if(0 <= changePosition && changePosition<$items.length)
+                    {
+                        nowPosition=changePosition
+                    }
+                
+                }
+                if(originalleft-event.clientX >option.width/4){
+                    movePosition(+1);
+                }
+                else if(originalleft-event.clientX <-option.width/4){
+                    movePosition(-1);
+                }
+                $target.animate({'left' : -nowPosition*option.width},'fast');
+                isDown =false;               
+                 event.preventDefault();
+
+
+
+            });
+        }
+
+        
+//    윤인성 모던웹 교재
+   </script>
+    <script>
+        $(document).ready(function(){
+            $('#pivot_slider').pivot(
+                {
+                    width:700,
+                    height:700
+                });
+        });
+    </script>
+</head>
+<body>
+    <h2>아래 영역 드래그해라</h2>
+    <div id ="pivot_slider">
+        <div >
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <img src="Desert.jpg" width="300px" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <img src="Hydrangeas.jpg" width="300px" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <img src="Jellyfish.jpg" width="300px" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <img src="Koala.jpg" width="300px" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <img src="Lighthouse.jpg" width="300px" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+</body>
+</html>

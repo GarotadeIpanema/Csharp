@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('h1').click(function(){
+            // h1클릭 이벤트 주기
+            $(this.html('click'));
+            alert('이벤트가 발생함');
+            $(this).off();
+            });
+            // h1클릭 이벤트 삭제
+
+        });
+    </script>
+</head>
+<!-- 일회용 이벤트 만들기 -->
+<body>
+    <h1>Click</h1>
+    <h1>lorem</h1>
+    <h1>lorem</h1>
+    <h1>lorem</h1>
+</body>
+</html>

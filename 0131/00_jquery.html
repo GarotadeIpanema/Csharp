@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    
+
+</head>
+<body>
+    <style>
+        .colorTest{
+            color:pink;
+        }
+        .border{
+            border: 1px solid green;
+        }
+    </style>
+</body>
+<h1 id="firstTag">Lorem, ipsum.</h1>
+<h2 id="secondTag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consequuntur!</h2>
+<script>
+    
+    var firstTag = document.querySelector('#firstTag');
+    firstTag.setAttribute('class','colorText');
+    var firstTag2 = document.getElementById('firstTag');
+    firstTag.setAttribute('class','border');
+    firstTag.style.background='springgreen';
+    //jquery이용: 메소드 체인
+    // $ document
+    $('#secondTag').addClass('colorTest').css('background','yellow').addClass('border');
+
+
+</script>
+</html>
