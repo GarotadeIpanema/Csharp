@@ -1,0 +1,6 @@
+C:\Users\KB\Desktop\dimim\0125\Day2\Day2\bin\Debug\Day2.exe.config
+C:\Users\KB\Desktop\dimim\0125\Day2\Day2\bin\Debug\Day2.exe
+C:\Users\KB\Desktop\dimim\0125\Day2\Day2\bin\Debug\Day2.pdb
+C:\Users\KB\Desktop\dimim\0125\Day2\Day2\obj\Debug\Day2.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\0125\Day2\Day2\obj\Debug\Day2.exe
+C:\Users\KB\Desktop\dimim\0125\Day2\Day2\obj\Debug\Day2.pdb

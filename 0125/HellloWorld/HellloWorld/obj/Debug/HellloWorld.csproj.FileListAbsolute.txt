@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\dimim\0125\HellloWorld\HellloWorld\bin\Debug\HellloWorld.exe.config
+C:\Users\KB\Desktop\dimim\0125\HellloWorld\HellloWorld\bin\Debug\HellloWorld.exe
+C:\Users\KB\Desktop\dimim\0125\HellloWorld\HellloWorld\bin\Debug\HellloWorld.pdb
+C:\Users\KB\Desktop\dimim\0125\HellloWorld\HellloWorld\obj\Debug\HellloWorld.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\0125\HellloWorld\HellloWorld\obj\Debug\HellloWorld.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\0125\HellloWorld\HellloWorld\obj\Debug\HellloWorld.exe
+C:\Users\KB\Desktop\dimim\0125\HellloWorld\HellloWorld\obj\Debug\HellloWorld.pdb

@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\dimim\0125\Day4\Day4\obj\Debug\Day4.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\0125\Day4\Day4\obj\Debug\Day4.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\0125\Day4\Day4\bin\Debug\Day4.exe.config
+C:\Users\KB\Desktop\dimim\0125\Day4\Day4\bin\Debug\Day4.exe
+C:\Users\KB\Desktop\dimim\0125\Day4\Day4\bin\Debug\Day4.pdb
+C:\Users\KB\Desktop\dimim\0125\Day4\Day4\obj\Debug\Day4.exe
+C:\Users\KB\Desktop\dimim\0125\Day4\Day4\obj\Debug\Day4.pdb
