@@ -1,0 +1,5 @@
+C:\Users\KB\Desktop\dimim\Day6\Day6\obj\Debug\Day6.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\Day6\Day6\obj\Debug\Day6.Form1.resources
+C:\Users\KB\Desktop\dimim\Day6\Day6\obj\Debug\Day6.Properties.Resources.resources
+C:\Users\KB\Desktop\dimim\Day6\Day6\obj\Debug\Day6.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\dimim\Day6\Day6\obj\Debug\Day6.csproj.CoreCompileInputs.cache
