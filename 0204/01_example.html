@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // html,css,js,jquery 세트메뉴
+        // window.onload; 바디 내용을 다 읽고 이 함수를 실행을 해주세요
+        window.onload = function () {
+            document.getElementById("bdiv").innerHTML ="tag 사잉에 들어갑니다."
+            document.getElementById("adiv").onclick = function () {
+                alert("test");
+                alert("잘되나");
+            }
+
+        }
+        
+        
+    </script>
+    <style>
+        #adiv{
+            background-color: aqua;
+            height: 600px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="adiv">
+        이걸 누르면 경고창이 뜬다
+    </div>
+    <div id="bdiv">
+
+
+    </div>
+</body>
+
+</html>
