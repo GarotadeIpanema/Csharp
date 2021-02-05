@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // 자바스크립트: 바디까지 다읽고 이 내용 실행
+        window.onload =function(){
+            alert("경고장 출력");
+            var adiv = document.getElementById("adiv");
+            console.log("javascript adiv \n"+adiv);
+            adiv.style.backgroundColor="blue";
+            adiv.onclick=function(){
+                adiv.style.backgroundColor="yellow";
+            }
+
+        }
+        // 제이쿼리식
+        $(document).ready(function(){
+            // alert("경고장 출력");
+            var adiv =$("#adiv");
+            console.log("jquery adiv \n"+adiv);
+            adiv.css("background-color","red");
+            $("#btn1").click(function(){
+                adiv.css("background-color","gray");
+
+            })
+
+
+        })
+    </script>
+
+</head>
+<body>
+    <div id ="adiv">
+        배경색 바뀜.
+    </div>
+    <button id="btn1">버튼</button>
+</body>
+</html>
