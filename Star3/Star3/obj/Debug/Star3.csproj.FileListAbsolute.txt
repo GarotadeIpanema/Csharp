@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\dimim\0208\Star3\Star3\bin\Debug\Star3.exe.config
+C:\Users\KB\Desktop\dimim\0208\Star3\Star3\bin\Debug\Star3.exe
+C:\Users\KB\Desktop\dimim\0208\Star3\Star3\bin\Debug\Star3.pdb
+C:\Users\KB\Desktop\dimim\0208\Star3\Star3\obj\Debug\Star3.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\0208\Star3\Star3\obj\Debug\Star3.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\0208\Star3\Star3\obj\Debug\Star3.exe
+C:\Users\KB\Desktop\dimim\0208\Star3\Star3\obj\Debug\Star3.pdb
