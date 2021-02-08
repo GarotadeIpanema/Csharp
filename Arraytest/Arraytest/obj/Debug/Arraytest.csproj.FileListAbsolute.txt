@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\dimim\0208\Arraytest\Arraytest\bin\Debug\Arraytest.exe.config
+C:\Users\KB\Desktop\dimim\0208\Arraytest\Arraytest\bin\Debug\Arraytest.exe
+C:\Users\KB\Desktop\dimim\0208\Arraytest\Arraytest\bin\Debug\Arraytest.pdb
+C:\Users\KB\Desktop\dimim\0208\Arraytest\Arraytest\obj\Debug\Arraytest.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\0208\Arraytest\Arraytest\obj\Debug\Arraytest.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\0208\Arraytest\Arraytest\obj\Debug\Arraytest.exe
+C:\Users\KB\Desktop\dimim\0208\Arraytest\Arraytest\obj\Debug\Arraytest.pdb

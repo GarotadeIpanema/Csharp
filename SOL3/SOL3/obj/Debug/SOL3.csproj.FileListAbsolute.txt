@@ -1,0 +1,6 @@
+C:\Users\KB\source\repos\SOL3\SOL3\bin\Debug\SOL3.exe.config
+C:\Users\KB\source\repos\SOL3\SOL3\bin\Debug\SOL3.exe
+C:\Users\KB\source\repos\SOL3\SOL3\bin\Debug\SOL3.pdb
+C:\Users\KB\source\repos\SOL3\SOL3\obj\Debug\SOL3.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\SOL3\SOL3\obj\Debug\SOL3.exe
+C:\Users\KB\source\repos\SOL3\SOL3\obj\Debug\SOL3.pdb

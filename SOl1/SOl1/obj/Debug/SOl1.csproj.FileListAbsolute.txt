@@ -1,0 +1,6 @@
+C:\Users\KB\Desktop\dimim\0208\SOl1\SOl1\bin\Debug\SOl1.exe.config
+C:\Users\KB\Desktop\dimim\0208\SOl1\SOl1\bin\Debug\SOl1.exe
+C:\Users\KB\Desktop\dimim\0208\SOl1\SOl1\bin\Debug\SOl1.pdb
+C:\Users\KB\Desktop\dimim\0208\SOl1\SOl1\obj\Debug\SOl1.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\0208\SOl1\SOl1\obj\Debug\SOl1.exe
+C:\Users\KB\Desktop\dimim\0208\SOl1\SOl1\obj\Debug\SOl1.pdb
