@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\dimim\0215\Class\Class\bin\Debug\Class.exe.config
+C:\Users\KB\Desktop\dimim\0215\Class\Class\bin\Debug\Class.exe
+C:\Users\KB\Desktop\dimim\0215\Class\Class\bin\Debug\Class.pdb
+C:\Users\KB\Desktop\dimim\0215\Class\Class\obj\Debug\Class.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\0215\Class\Class\obj\Debug\Class.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\0215\Class\Class\obj\Debug\Class.exe
+C:\Users\KB\Desktop\dimim\0215\Class\Class\obj\Debug\Class.pdb
