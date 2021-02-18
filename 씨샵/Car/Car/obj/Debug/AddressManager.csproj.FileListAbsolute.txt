@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\bin\Debug\Car.exe.config
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\bin\Debug\Car.exe
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\bin\Debug\Car.pdb
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\obj\Debug\AddressManager.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\obj\Debug\AddressManager.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\obj\Debug\Car.exe
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\obj\Debug\Car.pdb
