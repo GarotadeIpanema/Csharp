@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\dimim\씨샵\0219\CustomerManager\CustomerManager\bin\Debug\CustomerManager.exe.config
+C:\Users\KB\Desktop\dimim\씨샵\0219\CustomerManager\CustomerManager\bin\Debug\CustomerManager.exe
+C:\Users\KB\Desktop\dimim\씨샵\0219\CustomerManager\CustomerManager\bin\Debug\CustomerManager.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0219\CustomerManager\CustomerManager\obj\Debug\CustomerManager.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\0219\CustomerManager\CustomerManager\obj\Debug\CustomerManager.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0219\CustomerManager\CustomerManager\obj\Debug\CustomerManager.exe
+C:\Users\KB\Desktop\dimim\씨샵\0219\CustomerManager\CustomerManager\obj\Debug\CustomerManager.pdb
