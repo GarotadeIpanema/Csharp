@@ -1,0 +1,14 @@
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\bin\Debug\Car.exe.config
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\bin\Debug\Car.exe
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\bin\Debug\Car.pdb
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\obj\Debug\Car.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\obj\Debug\Car.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\obj\Debug\Car.exe
+C:\Users\KB\Desktop\dimim\씨샵\Car\Car\obj\Debug\Car.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0218\Car\Car\bin\Debug\Car.exe.config
+C:\Users\KB\Desktop\dimim\씨샵\0218\Car\Car\bin\Debug\Car.exe
+C:\Users\KB\Desktop\dimim\씨샵\0218\Car\Car\bin\Debug\Car.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0218\Car\Car\obj\Debug\Car.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\0218\Car\Car\obj\Debug\Car.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0218\Car\Car\obj\Debug\Car.exe
+C:\Users\KB\Desktop\dimim\씨샵\0218\Car\Car\obj\Debug\Car.pdb
