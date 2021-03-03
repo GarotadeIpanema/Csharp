@@ -42,6 +42,8 @@
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Build" />
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="SunnyUI, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SunnyUI.3.0.2\lib\net40\SunnyUI.dll</HintPath>
     </Reference>
@@ -80,6 +82,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Randata.cs" />
+    <Compile Include="UI\ViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ViewForm.Designer.cs">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Util\Mymenu.cs" />
     <EmbeddedResource Include="UI\AddForm.resx">
       <DependentUpon>AddForm.cs</DependentUpon>
@@ -96,6 +104,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\ViewForm.resx">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -120,6 +131,8 @@
     <Content Include="ReadMePng\Options.png" />
     <Content Include="ReadMePng\类库上右键.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

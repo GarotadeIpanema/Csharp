@@ -8,11 +8,28 @@ namespace CustomerManager
 {
     class CustomerHandler
     {
-        static List<Customer> addrList =
+        static CustomerHandler inst;
+        List<Customer> addrList =
            new List<Customer>();
 
         Random r = null;
         Randata rand = null;
+
+        public CustomerHandler()
+        {
+            rand = new Randata(new Random());
+        }
+
+        public static CustomerHandler getInst()
+        {
+            if(inst == null)
+            {
+                inst = new CustomerHandler();
+            }
+            return inst;
+        }
+
+        //getter를 써서 리턴하는 객체 만듦
 
         public List<Customer> getList()
         {
@@ -26,7 +43,6 @@ namespace CustomerManager
        
         public void addItem()
         {
-            rand = new Randata(new Random());
             Console.WriteLine("-----------------");
             Console.WriteLine("주소록 정보 입력");
             Console.WriteLine("-----------------");
