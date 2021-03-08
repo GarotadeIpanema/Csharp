@@ -206,7 +206,9 @@ namespace CustomerManager
                     break;
                 case 5:
                     Console.WriteLine("모든 항목이 업데이트됩니다!");
+#pragma warning disable CS0162 // 접근할 수 없는 코드가 있습니다.
                     for (int i = 0; i < addrList.Count; i++)
+#pragma warning restore CS0162 // 접근할 수 없는 코드가 있습니다.
                     {
                         if (id.Equals(addrList[i].Id))
                         {
