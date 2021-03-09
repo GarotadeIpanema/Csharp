@@ -144,6 +144,15 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Util\NanumSquareRoundB.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Util\NanumSquareRoundEB.ttf" />
+    <None Include="Util\NanumSquareRoundL.ttf" />
+    <None Include="Util\NanumSquareRoundR.ttf" />
+    <None Include="Util\WiggleHangeul.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
