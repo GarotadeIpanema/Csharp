@@ -9,7 +9,7 @@ namespace WindowsFormsApp1.Model
     public class Car
     {
         string model;
-        int price;
+        string price;
         string color;
         string company;
         string year;
@@ -27,7 +27,7 @@ namespace WindowsFormsApp1.Model
             this.car = car;
         }
 
-        public Car(string model, int price, string color, string company, string year)
+        public Car(string model, string  price, string color, string company, string year)
         {
             this.model = model;
             this.price = price;
@@ -37,7 +37,7 @@ namespace WindowsFormsApp1.Model
         }
 
         public string Model { get => model; set => model = value; }
-        public int Price { get => price; set => price = value; }
+        public string Price { get => price; set => price = value; }
         public string Color { get => color; set => color = value; }
         public string Company { get => company; set => company = value; }
         public string Year { get => year; set => year = value; }
