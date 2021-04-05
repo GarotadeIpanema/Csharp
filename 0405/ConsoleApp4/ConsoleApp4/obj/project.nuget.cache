@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WtHyP/7jwmxyklHKgvXAQFgHYzWgYxQzTCfvzgCawWvrzo4zRMpTA3v8SZ40oo5HX1TPIBoRB6GcSrVJuBxmag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KB\\Desktop\\dimim\\씨샵\\0405\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KB\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\KB\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
