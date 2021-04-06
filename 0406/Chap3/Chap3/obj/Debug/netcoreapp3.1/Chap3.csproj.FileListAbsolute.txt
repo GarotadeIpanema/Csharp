@@ -1,0 +1,13 @@
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\bin\Debug\netcoreapp3.1\Chap3.exe
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\bin\Debug\netcoreapp3.1\Chap3.deps.json
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\bin\Debug\netcoreapp3.1\Chap3.runtimeconfig.json
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\bin\Debug\netcoreapp3.1\Chap3.runtimeconfig.dev.json
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\bin\Debug\netcoreapp3.1\Chap3.dll
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\bin\Debug\netcoreapp3.1\Chap3.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\obj\Debug\netcoreapp3.1\Chap3.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\obj\Debug\netcoreapp3.1\Chap3.AssemblyInfoInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\obj\Debug\netcoreapp3.1\Chap3.AssemblyInfo.cs
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\obj\Debug\netcoreapp3.1\Chap3.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\obj\Debug\netcoreapp3.1\Chap3.dll
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\obj\Debug\netcoreapp3.1\Chap3.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0406\Chap3\Chap3\obj\Debug\netcoreapp3.1\Chap3.genruntimeconfig.cache
