@@ -1,0 +1,16 @@
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\bin\Debug\net5.0\answer0408.exe
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\bin\Debug\net5.0\answer0408.deps.json
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\bin\Debug\net5.0\answer0408.runtimeconfig.json
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\bin\Debug\net5.0\answer0408.runtimeconfig.dev.json
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\bin\Debug\net5.0\answer0408.dll
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\bin\Debug\net5.0\ref\answer0408.dll
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\bin\Debug\net5.0\answer0408.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\answer0408.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\answer0408.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\answer0408.AssemblyInfoInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\answer0408.AssemblyInfo.cs
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\answer0408.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\answer0408.dll
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\ref\answer0408.dll
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\answer0408.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0408\answer0408\answer0408\obj\Debug\net5.0\answer0408.genruntimeconfig.cache

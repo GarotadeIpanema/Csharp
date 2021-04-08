@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NezfvpjsClM7wrUyY42dgqd/bAKqw640TZ7KgKNOGoZWRBXEX6+X4gc6b5aSu5CKINenA5XA8W90YH1qG4bT6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KB\\Desktop\\dimim\\씨샵\\0408\\bak0408\\bak0408\\bak0408.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KB\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\KB\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\KB\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
