@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\bin\Debug\Rockpaperscissors.exe.config
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\bin\Debug\Rockpaperscissors.exe
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\bin\Debug\Rockpaperscissors.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\obj\Debug\Rockpaperscissors.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\obj\Debug\Rockpaperscissors.Form1.resources
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\obj\Debug\Rockpaperscissors.Properties.Resources.resources
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\obj\Debug\Rockpaperscissors.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\obj\Debug\Rockpaperscissors.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\obj\Debug\Rockpaperscissors.exe
+C:\Users\KB\Desktop\dimim\씨샵\0412\Rockpaperscissors\Rockpaperscissors\obj\Debug\Rockpaperscissors.pdb
