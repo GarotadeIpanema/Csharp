@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\bin\Debug\descript_function.exe.config
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\bin\Debug\descript_function.exe
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\bin\Debug\descript_function.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\obj\Debug\descript_function.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\obj\Debug\descript_function.Form1.resources
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\obj\Debug\descript_function.Properties.Resources.resources
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\obj\Debug\descript_function.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\obj\Debug\descript_function.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\obj\Debug\descript_function.exe
+C:\Users\KB\Desktop\dimim\씨샵\0414\descript_function\descript_function\obj\Debug\descript_function.pdb

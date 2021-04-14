@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\bin\Debug\getset.exe.config
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\bin\Debug\getset.exe
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\bin\Debug\getset.pdb
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\obj\Debug\getset.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\obj\Debug\getset.Form1.resources
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\obj\Debug\getset.Properties.Resources.resources
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\obj\Debug\getset.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\obj\Debug\getset.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\obj\Debug\getset.exe
+C:\Users\KB\Desktop\dimim\씨샵\0414\getset\getset\obj\Debug\getset.pdb
