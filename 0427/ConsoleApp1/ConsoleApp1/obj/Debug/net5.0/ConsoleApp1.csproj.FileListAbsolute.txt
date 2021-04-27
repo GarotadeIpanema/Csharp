@@ -1,0 +1,16 @@
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.exe
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.deps.json
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.dll
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ref\ConsoleApp1.dll
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.pdb
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csprojAssemblyReference.cache
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.dll
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
+D:\dimim\dimim\씨샵\0427\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
