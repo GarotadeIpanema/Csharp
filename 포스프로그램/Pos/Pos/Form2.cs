@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Pos
 {
-    public partial class Form2 : Form
+    partial class Form2 : Form
     {
         //서버사용 선언
         MySqlConnection connection = new MySqlConnection("Server=localhost;Port=3306;Database=pos_dataset;" +

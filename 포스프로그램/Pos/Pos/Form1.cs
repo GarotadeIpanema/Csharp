@@ -24,6 +24,18 @@ namespace Pos
             dataGridView1.DataSource = table;
             //초기값 1로 지정
             numericUpDown1.Value = 1;
+            if (Login.chk =="0")
+            {
+                label7.Text = "매니져님 반갑습니다";
+                button_stock.Visible = true;
+                button_crulist.Visible = true;
+            }
+            else
+            {
+                label7.Text = "사원님 반갑습니다";
+                button_stock.Visible = false;
+                button_crulist.Visible = false;
+            }
 
         }
 
@@ -99,7 +111,7 @@ namespace Pos
         }
 
         private void button_charge_Click(object sender, EventArgs e)
-        {
+        {   //db 연결 후 데이터 전송
             using (MySqlConnection conn = new MySqlConnection("Server=localhost;Port=3306;Database=pos_dataset;" +
                 "Uid=root;Pwd=1126"))
             {
@@ -114,10 +126,17 @@ namespace Pos
                     //insert into 쿼리문으로 받은 정보 디비에 전송
                     string sql=string.Format("INSERT INTO sales_tb(name,price,count,total,c_num)" +
                         "VALUES('{0}',{1},{2},{3},{4})", @Name, @Price, @Count, @Total, @i);
+                    //재고 수량에서 판매된 개수만큼 뺴준다
+                    string sql_count = string.Format("update item_tb set i_count=i_count - {0} where s_name" +
+                        "='{1}'", Count, @Name);
                     try
                     {
                         MySqlCommand command = new MySqlCommand(sql, conn);
                         command.ExecuteNonQuery();
+                        MySqlCommand c_command = new MySqlCommand(sql, conn);
+                        c_command.ExecuteNonQuery();
+
+                    
                     }
                     catch (Exception ex)
                     {
@@ -153,6 +172,15 @@ namespace Pos
             Form3 Dlg = new Form3();
             Dlg.ShowDialog();
 
+        }
+        //쇼 다이알로그: 부모창 비활성화됨, 그냥 쇼, 부모창도 같이 활성화 상태(모달리스)
+        private void button_logout_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            //this.Hide();
+            lg.ShowDialog();
+            Close();
+            //this.Show();
         }
     }
 }

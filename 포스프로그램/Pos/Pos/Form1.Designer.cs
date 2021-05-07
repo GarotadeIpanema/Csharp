@@ -45,6 +45,9 @@ namespace Pos
             this.button_pick = new System.Windows.Forms.Button();
             this.button_charge = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.button_crulist = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button_logout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
@@ -80,7 +83,7 @@ namespace Pos
             // 
             // button_stock
             // 
-            this.button_stock.Location = new System.Drawing.Point(131, 392);
+            this.button_stock.Location = new System.Drawing.Point(434, 392);
             this.button_stock.Name = "button_stock";
             this.button_stock.Size = new System.Drawing.Size(75, 23);
             this.button_stock.TabIndex = 3;
@@ -191,11 +194,42 @@ namespace Pos
             this.label6.TabIndex = 16;
             this.label6.Text = "SERVER";
             // 
+            // button_crulist
+            // 
+            this.button_crulist.Location = new System.Drawing.Point(540, 392);
+            this.button_crulist.Name = "button_crulist";
+            this.button_crulist.Size = new System.Drawing.Size(75, 23);
+            this.button_crulist.TabIndex = 17;
+            this.button_crulist.Text = "직원 목록";
+            this.button_crulist.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(506, 13);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(11, 12);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "-";
+            // 
+            // button_logout
+            // 
+            this.button_logout.Location = new System.Drawing.Point(695, 8);
+            this.button_logout.Name = "button_logout";
+            this.button_logout.Size = new System.Drawing.Size(75, 23);
+            this.button_logout.TabIndex = 19;
+            this.button_logout.Text = "로그 아웃";
+            this.button_logout.UseVisualStyleBackColor = true;
+            this.button_logout.Click += new System.EventHandler(this.button_logout_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 434);
+            this.Controls.Add(this.button_logout);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.button_crulist);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button_charge);
             this.Controls.Add(this.button_pick);
@@ -240,6 +274,9 @@ namespace Pos
         private System.Windows.Forms.Button button_pick;
         private System.Windows.Forms.Button button_charge;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button_crulist;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button_logout;
     }
 }
 

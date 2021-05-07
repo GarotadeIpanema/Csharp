@@ -13,6 +13,7 @@ namespace Pos
 {
     public partial class Form3 : Form
     {
+        Form2 f2 = new Form2();
         public Form3()
         {
             InitializeComponent();
@@ -47,7 +48,7 @@ namespace Pos
                 MessageBox.Show("항목을 정확하게 입력하세요");
                 MessageBox.Show(ex.Message);
             }
-            LoadData();
+            f2.LoadData();
 
 
 
