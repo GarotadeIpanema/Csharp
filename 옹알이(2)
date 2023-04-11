@@ -1,0 +1,14 @@
+public string solution(string s) {
+
+        var list = s.Split(" ").ToList();
+                for (int i = 0; i < list.Count; i++)
+                {
+                    var lis = list[i].ToCharArray();
+                    int[] indexes = Enumerable.Range(0, lis.Length).Where(x => x % 2 == 0).ToArray();
+                    Array.ForEach(indexes, k => lis[k] = char.ToUpper(lis[k]));
+                    list[i] = String.Concat(lis);
+                }
+             string answer = String.Join(" ", list);
+
+        return answer;
+    }
