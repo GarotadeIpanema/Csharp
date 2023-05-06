@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "올바른 괄호/1.0.0": {
+        "runtime": {
+          "올바른 괄호.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "올바른 괄호/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\bin\Debug\net6.0\이진변환반복하기.exe
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\bin\Debug\net6.0\이진변환반복하기.deps.json
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\bin\Debug\net6.0\이진변환반복하기.runtimeconfig.json
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\bin\Debug\net6.0\이진변환반복하기.dll
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\bin\Debug\net6.0\이진변환반복하기.pdb
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\이진변환반복하기.csproj.AssemblyReference.cache
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\이진변환반복하기.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\이진변환반복하기.AssemblyInfoInputs.cache
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\이진변환반복하기.AssemblyInfo.cs
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\이진변환반복하기.csproj.CoreCompileInputs.cache
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\이진변환반복하기.dll
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\refint\이진변환반복하기.dll
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\이진변환반복하기.pdb
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\이진변환반복하기.genruntimeconfig.cache
+C:\Users\asungsoft\Desktop\지민\Lv.2\이진변환반복하기\이진변환반복하기\obj\Debug\net6.0\ref\이진변환반복하기.dll
